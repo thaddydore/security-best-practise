@@ -38,7 +38,7 @@ contract VunerableBank {
 }
 
 
-// Secure  
+// Secure  Code for retrancy
 contract SecureBank {
    mapping(address => uint256) public balances;
 
