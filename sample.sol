@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-// im adelia
+
 pragma solidity ^0.8.17;
 
 // lacks access control 
@@ -23,7 +23,7 @@ contract SafeMathExample {
    }
 }
 
-
+// im writing something here (adelia)
 // vulnerable Code for retrancy attack
 contract VunerableBank {
    mapping(address => uint256) public balances;
